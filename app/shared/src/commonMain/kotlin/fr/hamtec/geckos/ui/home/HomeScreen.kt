@@ -1,4 +1,4 @@
-package fr.hamtec.geckos.ui
+package fr.hamtec.geckos.ui.home
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
