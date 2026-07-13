@@ -22,7 +22,7 @@ fun HomeScreen(onNavigateToSettings: () -> Unit, onNavigateToProduct: (String) -
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(24.dp)
+            .padding(5.dp)
             .background(Color.Cyan),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally

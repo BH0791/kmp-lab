@@ -13,7 +13,7 @@ import fr.hamtec.geckos.navigation.Route
 @Composable
 fun SettingsScreen(settings: Route.Settings, onBack: () -> Unit) {
     Column(
-        modifier = Modifier.fillMaxSize().padding(24.dp),
+        modifier = Modifier.fillMaxSize().padding(5.dp),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {

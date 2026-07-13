@@ -47,10 +47,10 @@ fun NavigationDisplay() {
                     onBack = { backStack.pop() }
                 )
             }
-
-            entry<Route.Settings> {
+            // Écran Settings
+            entry<Route.Settings> { settings ->
                 SettingsScreen(
-                    settings = it,
+                    settings = settings,
                     onBack = { backStack.pop() }
                 )
             }
