@@ -10,7 +10,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import fr.hamtec.geckos.navigation.NavExample
+import fr.hamtec.geckos.navigation.display.NavigationDisplay
 
 /**
  * 🎯 1. Tu as un point d’entrée UI multiplateforme propre
@@ -26,7 +26,7 @@ fun SharedRootApp() {
             Box(
                 Modifier.padding(padding)
             ) {
-                NavExample()
+                NavigationDisplay()
             }
         }
     }
