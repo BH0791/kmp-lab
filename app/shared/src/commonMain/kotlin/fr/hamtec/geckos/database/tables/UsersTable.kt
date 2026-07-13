@@ -1,3 +1,0 @@
-package fr.hamtec.geckos.database.tables
-
-// TODO A venir...

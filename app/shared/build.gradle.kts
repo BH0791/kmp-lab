@@ -50,6 +50,8 @@ kotlin {
             implementation(libs.compose.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodelCompose)
             implementation(libs.androidx.lifecycle.runtimeCompose)
+            //- Pour Navigation-3
+            implementation(libs.bundles.navigation3)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
